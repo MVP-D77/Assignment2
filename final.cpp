@@ -29,6 +29,7 @@ string pretreatment(string initial){
         if(result=="stop") {
             cout<<"感谢您的使用！！"<<endl;
             exit(-1);
+
         }
         midterm.push(result);
         if (!judge_consist(result,'=') ){
